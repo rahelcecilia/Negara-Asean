@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+SAWADIKAP
+    </title>
+      
+    <script src=
+"js\scripts.js">
+    </script>
+</head>
+  
+<body style="text-align:center;">
+      
+    <h1 style = "color:green;" > 
+        SAWADIKAP 
+    </h1> 
+      
+    <h3>
+        Food Diversity in Southeast Asia
+    </h3>
+    <hr>
+      
+    <div class="box">
+    
+        <img src=
+"assets/img/Peta-Asia-Tenggara.jpg" 
+href="indonesia.html" id="geeks" GFG="250" alt="Geeksforgeeks">
+</div>
+
+<hr>
+  
+<button type="button" onclick="zoomin()">
+    Zoom-In
+</button>
+  
+<button type="button" onclick="zoomout()"> 
+    Zoom-Out
+</button>
+  
+<script type="text/javascript">
+    function zoomin() {
+        var GFG = document.getElementById("geeks");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth + 100) + "px";
+    }
+      
+    function zoomout() {
+        var GFG = document.getElementById("geeks");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth - 100) + "px";
+    }
+</script>
+</body>
+
+</html>
